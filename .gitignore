@@ -1,6 +1,6 @@
 *.pc
-/src/*.c
-/include/GL/*.h
+# /src/*.c
+# /include/GL/*.h
 /build/vc6/*.rc
 /build/*.rc
 /build/*/*.sdf
@@ -20,3 +20,14 @@
 /tmp
 /out
 .DS_Store*
+
+/auto/EGL-Registry/
+/auto/OpenGL-Registry/
+/auto/glfixes/
+
+/.build
+/release
+/debug
+/excons.cache
+/.sconsign.dblite
+
