@@ -41,6 +41,7 @@ prjs = [
       "name": GlewName(static=_static),
       "alias": "GLEW",
       "version": "2.2.0",
+      "symvis": "hidden",
       "soname": "lib%s.so.2" % GlewName(False),
       "install_name": "lib%s.2.dylib" % GlewName(False),
       "type": "staticlib" if _static else "sharedlib",
